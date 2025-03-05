@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AstroDailyApp: App {
+    
+    private let dependencies = AppDependencies(configuration: ProductionConfiguration())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AstroListView(viewModel: dependencies.astroViewModel)
         }
     }
 }
