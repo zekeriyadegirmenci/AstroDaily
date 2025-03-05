@@ -90,6 +90,7 @@ Packages
 xcuserdata
 *.xcodeproj
 .DS_Store
+AstroDaily/API/APIKey.swift
 
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,swiftpackagemanager
